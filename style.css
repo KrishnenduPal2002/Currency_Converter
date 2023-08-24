@@ -1,0 +1,144 @@
+
+
+.container {
+    min-height: 100vh;
+    font-family: 'poppins', sans-serif;
+    /* background-color: blanchedalmond; */
+    max-width: 80vw;
+    margin: auto;
+}
+
+.container h1,
+h2 {
+    /* text-align: center; */
+    margin: 23px 0;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input[type='number'],
+select,
+label {
+    /* background-color: blanchedalmond; */
+    font-size: 25px;
+    width: 23vw;
+    margin: 23px 0;
+}
+
+.container form label {
+    /* background-color: blanchedalmond; */
+    font-size: 25px;
+    margin-bottom: 23px;
+}
+
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    cursor: pointer;
+    border-radius: 13px;
+    margin-top: 11px;
+}
+
+.output {
+    display: none;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table th {
+    padding: 23px;
+}
+
+footer {
+    text-align: center;
+    font-family: 'poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,700;1,300&family=Poppins:wght@600&display=swap');
+
+nav {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 900;
+    display: flex;
+    background-color: black;
+    padding: 20px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all;
+    transition-duration: 500ms;
+    ;
+}
+
+nav li a:hover {
+    text-decoration: none;
+    color: rgb(214, 165, 104);
+    text-decoration:underline;
+    transition: 500ms;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul {
+    display: flex;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 23px;
+    color: aliceblue;
+    font-size: 24px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: blue;
+    }
+
+    nav {
+        flex-direction: column;
+        font-size: 14px;
+    }
+
+    nav ul li {
+        margin: 5px 13px;
+    }
+
+    nav ul {
+        justify-content: center;
+    }
+
+    .container {
+        max-width: 95vw;
+    }
+
+    .container form input[type='number'],
+    select,
+    label {
+        
+        width: 80vw;
+        margin: 4px;
+    }
+}
